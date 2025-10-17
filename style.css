@@ -1,0 +1,80 @@
+body {
+
+    background-color: gray;
+}
+
+#maingrid {
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(175px, 1fr));
+    justify-content: space-around;
+    
+    gap: 10px 10px;
+    
+        
+
+}
+
+.maingriditem {
+
+background-color: white;
+padding: 5px;
+border-radius:5px;
+overflow: hidden;
+box-shadow: 5px 5px 5px black;
+
+
+}
+
+
+
+.maingriditembuttondivbutton {
+
+    width: 100%;
+    margin-top:20px;
+    background-color: blue;
+    font-weight: bold;
+
+
+}
+
+.maindgriditempricediv {
+
+    align-content: right;
+}
+
+.maingriditeminfodivp {
+  
+  font-family: arial;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.maingriditempricedivp {
+
+    background-color: blue;
+    width: fit-content;
+    float: right;
+    
+}
+
+.carimage {
+
+    width:170px;
+    height:100px;
+    margin-top: 20px;
+    
+}
+
+h3 {
+
+    padding-top: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.maingriditeminfodivbutton {
+  
+  font-size: 10px;
+}
